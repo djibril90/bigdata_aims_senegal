@@ -21,7 +21,7 @@ fhandle=open(filename,'w')
 if len(sys.argv) > 2:
     TweetKeyword=[sys.argv[i+2] for i in range(len(sys.argv)-2)]
 else:
-    TweetKeyword=['Africa','big data']
+    TweetKeyword=['Senegal','gdp']
 
 
 print 'TweetKeywords are: ',TweetKeyword
